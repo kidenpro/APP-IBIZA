@@ -164,7 +164,7 @@ export default function App(){
 
   // ── MONTH VIEW ────────────────────────────────────────────────
   if(view==="month") return (
-    <div style={{background:"#fff",minHeight:"100vh",fontFamily:"system-ui,sans-serif",color:"#111",maxWidth:600,margin:"0 auto"}}>
+    <div style={{background:"#fff",minHeight:"100vh",fontFamily:"system-ui,sans-serif",color:"#111",width:"100%"}}>
       <Topbar/>
       <div style={{padding:"12px 8px 60px"}}>
         <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:10,padding:"0 4px"}}>
@@ -212,7 +212,7 @@ export default function App(){
 
   // ── WEEK VIEW ─────────────────────────────────────────────────
   return (
-    <div style={{background:"#fff",height:"100vh",display:"flex",flexDirection:"column",fontFamily:"system-ui,sans-serif",color:"#111",maxWidth:700,margin:"0 auto",overflow:"hidden"}}>
+    <div style={{background:"#fff",height:"100vh",display:"flex",flexDirection:"column",fontFamily:"system-ui,sans-serif",color:"#111",width:"100%",overflow:"hidden"}}>
       <Topbar/>
 
       {/* Nav semaine */}
